@@ -41,21 +41,6 @@
 - Tablet (768–1024px)
 - Mobile (≤768px)
 
----
-
-## 📂 Структура проекта
-youtalk-blog/
-├── index.html
-├── article.html
-├── css/
-│ ├── normalize.css
-│ ├── style.css
-│ ├── media.css
-├── js/
-│ └── burger.js
-├── assets/
-│ ├── images/
-│ └── icons
 
 
 ---
