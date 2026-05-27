@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTalk — Блог</title>
+
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header__container">
+
+    <a href="index.html" class="header__logo" aria-label="YouTalk home">
+      YouTalk
+    </a>
+
+    <nav class="header__nav" aria-label="Главная навигация">
+      <ul class="header__list">
+        <li class="header__item"><a href="#" class="header__link">Блог</a></li>
+        <li class="header__item"><a href="#" class="header__link">О сервисе</a></li>
+        <li class="header__item"><a href="#" class="header__link">Психологи</a></li>
+      </ul>
+    </nav>
+
+    <button class="header__cta">Подобрать психолога</button>
+
+    <button class="header__burger" aria-label="Открыть меню">
+      ☰
+    </button>
+
+  </div>
+</header>
+
+<main>
+
+<section class="blog">
+  <div class="container">
+
+    <h1 class="blog__title">Блог YouTalk</h1>
+
+    <div class="blog__tags" aria-label="Фильтры статей">
+      <button class="blog__tag">Все</button>
+      <button class="blog__tag">Самопомощь</button>
+      <button class="blog__tag">Отношения</button>
+      <button class="blog__tag">Границы</button>
+    </div>
+
+    <div class="blog__grid">
+
+      <article class="card">
+        <a href="article.html" class="card__link">
+          <img class="card__img" src="./assets/images/post1.png" alt="Тревога и стресс" />
+          <h2 class="card__title">Как справляться с тревогой</h2>
+          <p class="card__text">Практики снижения тревожности в повседневной жизни</p>
+        </a>
+      </article>
+
+      <article class="card">
+        <a href="article.html" class="card__link">
+          <img class="card__img" src="./assets/images/post2.png" alt="Личные границы" />
+          <h2 class="card__title">Личные границы</h2>
+          <p class="card__text">Почему важно уметь говорить «нет»</p>
+        </a>
+      </article>
+
+      <article class="card">
+        <a href="article.html" class="card__link">
+          <img class="card__img" src="./assets/images/post3.png" alt="Самооценка" />
+          <h2 class="card__title">Самооценка</h2>
+          <p class="card__text">От чего она зависит и как её укрепить</p>
+        </a>
+      </article>
+
+    </div>
+
+    <button class="blog__more">Показать ещё</button>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__container">
+    <p class="footer__text">© YouTalk, 2026</p>
+  </div>
+</footer>
+
+<script src="./js/burger.js"></script>
+
+</body>
+</html>
